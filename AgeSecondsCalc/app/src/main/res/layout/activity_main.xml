@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/bgColor">
+
+    <!-- CALCULATE YOUR textView and design -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CALCULATE YOUR"
+        android:textColor="#E0044F"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <!-- AGE textView and design -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE"
+        android:background="@color/textBlue"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <!-- IN MINUTES textView and design -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IN MINUTES"
+        android:textColor="#E0044F"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        />
+
+    <!-- Calculate button and  design -->
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:backgroundTint="@color/btnBgColor"
+        android:textColor="@color/buttonColor"
+        android:textSize="26dp"
+        />
+
+    <!-- Date textView and design -->
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="04.08.2000"
+        android:textColor="#E0044F"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- IN MINUTES textView and design -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textColor="#E0044F"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        />
+
+    <!-- Time textView and design -->
+    <TextView
+        android:id="@+id/tvAgeInSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="420000"
+        android:textColor="#E0044F"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <!-- AGE IN MINUTES textView and design -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Seconds"
+        android:textColor="#E0044F"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
